@@ -179,7 +179,7 @@ class Bycharabot
           @regex.each do |el|
             temp_msg = temp_msg.gsub(el, "")
           end
-          if (temp_msg == "актотакой#{@nickname}")
+          if (temp_msg == "ктотакой#{@nickname}" || temp_msg == "актотакой#{@nickname}")
             sendPrivateMessage(message.params[0], "Я - самый полезный бот. Кто не согласен, тот будет построен и зарыт.")
             @used_times += 1
           elsif (temp_msg == "кудастремятсяжидомайдауны" || temp_msg == "кудастремятсяжидомайдуны")
