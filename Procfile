@@ -1,0 +1,1 @@
+worker: crystal run src/bycharabot.cr
