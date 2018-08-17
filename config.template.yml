@@ -1,0 +1,7 @@
+server: "localhost"
+port: 6667
+connection_timeout: 10
+vote_kick: 5
+nickname: "bycharabot"
+channels: ["general"]
+regex: ["[\\n,.!?;:()-]", "\\x03(\\d{1,2}(,\\d{1,2})?)?", "<\\s*\\w.*?>", "\\[\\s*\\w.*?\\]"]
